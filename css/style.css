@@ -1,0 +1,146 @@
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: 700;
+}
+.navbar {
+  margin-top: 34px;
+}
+
+.main {
+  margin-bottom: 68px;
+}
+
+.text {
+  position: relative;
+  top: 170px;
+}
+.bttn {
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+}
+
+.smart-phone h3 {
+  position: relative;
+  left: 259px;
+}
+
+.smart-phone h5 {
+  /* position: relative; */
+  /* right: -176px; */
+  float: right;
+  position: relative;
+  top: -39px;
+  right: 273px;
+  color: #ffa008;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 205px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 2px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 16px;
+}
+.bag {
+  font-weight: 700;
+  position: relative;
+  left: 48px;
+  padding-top: 20px;
+}
+
+.beauty {
+  font-weight: 700;
+  position: relative;
+  left: 48px;
+  padding-top: 20px;
+}
+.shoes {
+  font-weight: 700;
+  position: relative;
+  left: 48px;
+  padding-top: 20px;
+}
+
+.last h1 {
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 7px;
+
+  width: 182px;
+  position: relative;
+  left: 713px;
+}
+.last h1:before {
+  content: '';
+  position: absolute;
+  width: 45%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 5px solid #ffa133;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+
+#home-section {
+  background: url('../img/home.jpg') no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+#home-section .home-inner {
+  padding-top: 150px;
+}
+#home-section .card-form {
+  opacity: 0.8;
+}
+#home-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#explore-section .fa,
+#share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
